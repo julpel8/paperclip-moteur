@@ -1,0 +1,13 @@
+{
+  "name": "@julpel/plugin-moteur",
+  "version": "0.1.0",
+  "description": "Auto / Claude / Codex switch and subscription quotas for the moteur_local adapter",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "paperclipPlugin": {
+    "manifest": "./manifest.js",
+    "worker": "./worker.js",
+    "ui": "./ui"
+  }
+}

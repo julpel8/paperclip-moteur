@@ -1,0 +1,12 @@
+{
+  "name": "@julpel/paperclip-moteur",
+  "version": "0.1.0",
+  "description": "Paperclip adapter moteur_local: runs Claude Code or Codex from a shared mode, and moves to Codex when the Claude quota is exhausted.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "license": "MIT",
+  "private": true
+}
